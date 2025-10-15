@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-printf("Hello Very Crool World!\n");
-=======
-printf("Hello Happy World!\n");
->>>>>>> Happy
+printf("Hello Crazy World!\n");
