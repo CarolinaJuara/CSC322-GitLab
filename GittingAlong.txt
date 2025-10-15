@@ -1,0 +1,33 @@
+mkdir GitLab
+  260  mv ~/CSC322/labtask-06-CarolinaJuara/HelloWorld.c ~/CSC322/GitLab
+  267  cd GitLab
+  268  git init
+  269  git add HelloWorld.c
+  270  git commit -m "Initial commit: Hello World program"
+  271  git remote add origin git@github.com:CarolinaJuara/CSC322-GitLab.git
+  272  git branch -M main
+  273  git push -u origin main
+  274  echo 'printf("Hello Crool World!\n");' > HelloWorld.c
+  275  git add HelloWorld.c
+  276  git commit -m "Changed message to Hello Crool World!"
+  277  git push
+  278  git branch Happy
+  279  git checkout Happy
+  280  git push -u origin Happy
+  281  echo 'printf("Hello Happy World!\n");' > HelloWorld.c
+  282  git add HelloWorld.c
+  283  git commit -m "Changed message to Hello Happy World!"
+  284  git push
+  285  git checkout main
+  286  echo 'printf("Hello Very Crool World!\n");' > HelloWorld.c
+  287  git add HelloWorld.c
+  288  git commit -m "Changed message to Hello Very Crool World!"
+  289  git push
+  290  git merge Happy
+  291  git add HelloWorld.c
+  292  git commit -m "Merged Happy branch into main: Hello Very Happy World!"
+  293  git push
+  294  echo 'printf("Hello Crazy World!\n");' > HelloWorld.c
+  295  git add HelloWorld.c
+  296  git commit -m "Changed message to Hello Crazy World!"
+  297  git push
